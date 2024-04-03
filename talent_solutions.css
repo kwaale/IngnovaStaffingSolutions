@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #001f3f, #7FDBFF)
+}
+
+section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #3498db;
+}
+
+#company-info, #contact-info, #candidate-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    
+}
+
+#company-info strong, #contact-info strong, #candidate-form strong {
+    margin-top: 20px;
+    color: #3498db;
+}
+
+#company-info p, #company-info ol, #company-info ul {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#company-info ol, #company-info ul {
+    text-align: justify;
+}
+
+#company-info ol li, #company-info ul li {
+    margin-bottom: 5px;
+}
+
+#contact-info ul {
+    padding: 0;
+    list-style: none;
+}
+
+#contact-info ul li {
+    margin-bottom: 10px;
+}
+
+#contact-info ul li a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+#candidate-form label {
+    margin-top: 10px;
+}
+
+#candidate-form input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#candidate-form button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#candidate-form button:hover {
+    background-color: #2980b9;
+}
