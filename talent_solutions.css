@@ -12,7 +12,7 @@ section {
 }
 
 h2 {
-    color: #3498db;
+    color: black;
 }
 
 #company-info, #contact-info, #candidate-form {
@@ -20,12 +20,24 @@ h2 {
     flex-direction: column;
     align-items: center;
     text-align: justify;
-    
+    color: white;    
 }
 
-#company-info strong, #contact-info strong, #candidate-form strong {
+#company-info strong, #candidate-form strong {
     margin-top: 20px;
     color: #3498db;
+}
+
+.logo-container{
+    display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 70vh;
+}
+
+#contact-info strong{
+    margin-top: 20px;
+    color: black;
 }
 
 #company-info p, #company-info ol, #company-info ul {
@@ -51,8 +63,8 @@ h2 {
 }
 
 #contact-info ul li a {
-    color: #3498db;
-    text-decoration: none;
+    color: blue;
+    /* text-decoration: none; */
 }
 
 #candidate-form label {
